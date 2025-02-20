@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: white; /* Set background color to white */
+  color: black; /* Set default text color to black */
+}
+
+.valentine-container {
+  text-align: center; /* Center text inside the container */
+}
+
+.yesButton,
+.noButton {
+  margin: 10px; /* Add some space between buttons */
+  padding: 10px 20px; /* Add padding to buttons */
+  font-size: 16px; /* Default font size */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.yesButton {
+  background-color: #4caf50; /* Green background for yes button */
+  color: white; /* White text color */
+}
+
+.noButton {
+  background-color: #f44336; /* Red background for no button */
+  color: white; /* White text color */
+}
+
+.text {
+  font-size: 24px; /* Increase font size for the text */
+  margin-top: 20px; /* Add space above the text */
+  color: black; /* Ensure text color is black */
+}
